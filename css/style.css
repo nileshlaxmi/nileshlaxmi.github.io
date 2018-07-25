@@ -35,7 +35,8 @@ visibility: hidden;
 /*JUMBOTRON*/
 .jumbotron {
 height: 100vh; /*height to 100% of view height*/
-background: #31b0d5; /*background color to blue*/
+background-color: #31b0d5; /*background color to blue*/
+background-image: url("../images/bgWebsite.png");
 margin-bottom: 0; /*no bottom margin*/
 
 display: flex;
@@ -246,7 +247,7 @@ border-radius: 4px;
 border: none;
 margin-bottom: 10px;
 /* background: #1d6fa5; */
-color: #fff;
+color: black;
 -webkit-transition: .5s ease all;
 transition: .5s ease all;
 }
@@ -271,5 +272,5 @@ transition: .5s ease all;
 }
 
 .white-text {
-color: white;
+color: black;
 }
