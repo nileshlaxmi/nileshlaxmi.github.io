@@ -9,6 +9,4 @@
 #### Product Landing Page
 #### Local Weather App
 #### Random Quote Generator
-#### To Do List - using React
-#### Login Page - using React, React Router and Redux
-
+#### Movie App - using React, AJAX, React Router and Redux.
