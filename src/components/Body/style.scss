@@ -1,0 +1,41 @@
+.main {
+	display: flex;
+	justify-content: space-between;
+	&__column {
+		width: 40%;
+		&--common {
+			&--header {
+				font-size: 1.5rem;
+				border-bottom: 4px solid white;
+				padding-bottom: 0.5rem;
+			}
+			&--desc {
+				margin: 0.5rem 0;
+			}
+		}
+		.personal-details {
+			div {
+				margin: 0.5rem 0;
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+	}
+}
+
+.background {
+	.main {
+		&__column {
+			&--common {
+				&--desc {
+					margin: 0.5rem 0;
+					&--row {
+						> span {
+							margin-right: 2rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}

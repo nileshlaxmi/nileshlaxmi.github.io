@@ -1,0 +1,9 @@
+@mixin alignCenter{
+	display: flex;
+	align-items: center;
+}
+
+@mixin verticalCenter{
+	@include alignCenter;
+	justify-content: center;
+}
