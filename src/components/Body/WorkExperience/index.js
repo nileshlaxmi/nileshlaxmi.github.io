@@ -18,6 +18,9 @@ const WorkExperience = ({ text }) => {
 							<div>
 								<span>{item.text2}</span>
 							</div>
+							<div>
+								<span>{item.text3}</span>
+							</div>
 						</div>
 					);
 				})}

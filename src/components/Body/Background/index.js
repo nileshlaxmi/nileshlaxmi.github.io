@@ -15,12 +15,17 @@ const Background = ({ text }) => {
 								<span>{item.title}</span>
 								<span>{item.text1}</span>
 							</div>
-							<div>
+							<div className="main__column--common--desc--row2">
 								<span>{item.text2}</span>
 							</div>
 							{item.text3 && (
-								<div>
+								<div className="main__column--common--desc--row2">
 									<span>{item.text3}</span>
+								</div>
+							)}
+							{item.text4 && (
+								<div className="main__column--common--desc--row2">
+									<span>{item.text4}</span>
 								</div>
 							)}
 						</div>

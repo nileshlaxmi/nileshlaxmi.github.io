@@ -11,9 +11,20 @@ const PersonalDetails = ({ text }) => {
 				{description.map((item, index) => {
 					return (
 						<div className="main__column--common--desc--details" key={index}>
-							<span>{item.title}</span>
-							<span>{item.text1}</span>
+							{/* <span>{item.title}</span>
+							<span>{item.text1}</span> */}
+							<div className="main__column--common--desc--row">
+								<div>{item.title}</div>
+								<div>{item.text1}</div>
+							</div>
+							<div className="main__column--common--desc--row2">
+								<span>{item.text2}</span>
+							</div>
+							<div className="main__column--common--desc--row2">
+								<span>{item.text3}</span>
+							</div>
 						</div>
+						
 					);
 				})}
 			</>

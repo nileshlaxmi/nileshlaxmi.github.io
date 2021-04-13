@@ -13,11 +13,33 @@
 				margin: 0.5rem 0;
 			}
 		}
-		.personal-details {
-			div {
-				margin: 0.5rem 0;
-				display: flex;
-				justify-content: space-between;
+		
+	}
+}
+
+// .personal-details {
+// 	div {
+// 		margin: 0.5rem 0;
+// 		display: flex;
+// 		justify-content: space-between;
+// 	}
+// }
+
+.personal-details {
+	.main {
+		&__column {
+			&--common {
+				&--desc {
+					margin: 0.5rem 0;
+					&--row {
+						display: flex;
+						justify-content: space-between;
+					}
+					&--row2 {
+						display: flex;
+						justify-content: flex-end;
+					}
+				}
 			}
 		}
 	}
@@ -30,9 +52,12 @@
 				&--desc {
 					margin: 0.5rem 0;
 					&--row {
-						> span {
-							margin-right: 2rem;
-						}
+						display: flex;
+						justify-content: space-between;
+					}
+					&--row2{
+						display: flex;
+						justify-content: flex-end;
 					}
 				}
 			}
