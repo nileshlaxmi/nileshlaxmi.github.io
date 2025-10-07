@@ -1,374 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Nilesh Laxmi — Frontend Tech Lead</title>
+    <meta
+      name="description"
+      content="Nilesh Laxmi — Frontend Tech Lead / Cross-Platform UI Lead. React, React Native, React Native Web, Accessibility, Platform Engineering."
+    />
+    <meta name="author" content="Nilesh Laxmi" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Nilesh Laxmi</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-
-    <!-- BEGIN NAVBAR -->
-    <div class="navbar">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <!-- END NAVBAR -->
-
-    <div class="container">
-
-        <!-- HEADER -->
-        <div class="jumbotron">
-            <div class="jumbotron-text">
-                <h1>Nilesh Laxmi</h1>
-                <p>Frontend Web Developer in Delhi, India.</p>
+    <div class="wrap" role="main" aria-labelledby="name">
+      <header>
+        <div class="title" id="name">
+          <div class="avatar" aria-hidden="true">NL</div>
+          <div>
+            <h1>Nilesh Laxmi</h1>
+            <h2>Frontend Tech Lead / Cross-Platform UI Lead</h2>
+            <div class="meta" style="margin-top: 6px">
+              <div>Delhi, India</div>
+              <div>&middot;</div>
+              <div class="muted">+91 • hidden</div>
+              <div>&middot;</div>
+              <div>
+                <a href="mailto:nileshlaxmi4@gmail.com"
+                  >nileshlaxmi4@gmail.com</a
+                >
+              </div>
             </div>
-            <div class="jumbotron-social">
-                <ul class="ul-social">
-                    <li class="li-social-links">
-                        <a class="social" href="https://github.com/nileshlaxmi" target="_blank"><i class="fa fa-github"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li class="li-social-links">
-                        <a class="social" href="https://codepen.io/NileshLaxmi/" target="_blank"><i
-                                class="fa fa-codepen" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="li-social-links">
-                        <a class="social" href="https://www.freecodecamp.org/nileshlaxmi" target="_blank"><i
-                                class="fa fa-free-code-camp" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="li-social-links">
-                        <a class="social" href="https://www.linkedin.com/in/nilesh-laxmi-bb170280/" target="_blank"><i
-                                class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="li-social-links">
-                        <a class="social" href="https://twitter.com/NiL_468" target="_blank"><i class="fa fa-twitter"
-                                aria-hidden="true"></i></a>
-                    </li>
+          </div>
+        </div>
+
+        <div class="actions" role="toolbar" aria-label="actions">
+          <button
+            id="toggleTheme"
+            class="btn"
+            title="Toggle theme"
+            aria-pressed="false"
+            aria-label="Toggle theme"
+          >
+            🌙 Theme
+          </button>
+
+          <!-- Replace href with actual resume URL or blob link -->
+          <a
+            id="downloadResume"
+            class="btn primary"
+            href="docs/resume.pdf"
+            download="Nilesh-Laxmi-Resume.pdf"
+            >Download resume</a
+          >
+        </div>
+      </header>
+
+      <main id="content">
+        <div>
+          <section class="section fade-up" aria-labelledby="summary-heading">
+            <h3 id="summary-heading" class="lead">Summary</h3>
+            <p>
+              Frontend Tech Lead / Cross-Platform UI Lead with 10+ years
+              building scalable, performant, and accessible web & mobile
+              applications. Expert in React, React Native and modern JavaScript.
+              Experienced in platform-first architecture, WCAG adoption, and
+              leading cross-functional teams.
+            </p>
+            <div class="stats" aria-hidden="true">
+              <div class="stat">
+                <div class="n">10+</div>
+                <div class="small muted">Years</div>
+              </div>
+              <div class="stat">
+                <div class="n">100+</div>
+                <div class="small muted">Projects</div>
+              </div>
+              <!-- <div class="stat">
+                <div class="n">32LPA</div>
+                <div class="small muted">Current CTC</div>
+              </div> -->
+            </div>
+          </section>
+
+          <section
+            class="section fade-up"
+            aria-labelledby="skills-heading"
+            style="margin-top: 12px"
+          >
+            <h3 id="skills-heading" class="lead">Skills</h3>
+            <div class="skills" aria-hidden="false">
+              <span class="chip">React</span>
+              <span class="chip">React Native Web</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">Accessibility (WCAG)</span>
+              <span class="chip">Design Systems</span>
+              <span class="chip">Web3 / Solidity</span>
+              <span class="chip">CI / CD</span>
+            </div>
+          </section>
+
+          <section
+            class="section fade-up"
+            aria-labelledby="projects-heading"
+            style="margin-top: 12px"
+          >
+            <h3 id="projects-heading" class="lead">Selected Projects</h3>
+            <p class="small muted">
+              Click a project to add details or link to a case study.
+            </p>
+
+            <div class="projects" role="list">
+              <article class="project" role="listitem">
+                <strong>Postpaid Change Plan — UI</strong>
+                <p>
+                  React + TypeScript. Accessibility-first redesign and
+                  conversion improvements.
+                </p>
+              </article>
+
+              <!-- <article class="project" role="listitem">
+                <strong>Web3 Minting DApp</strong>
+                <p>
+                  Wallet connect, on-chain metadata, gas-optimised contracts.
+                </p>
+              </article> -->
+
+              <article class="project" role="listitem">
+                <strong>Design System</strong>
+                <p>
+                  Reusable tokens, Storybook, cross-platform components for web
+                  & mobile.
+                </p>
+              </article>
+
+              <article class="project" role="listitem">
+                <strong>Track Request Journey</strong>
+                <p>
+                  Unified order & complaint tracking that reduced assisted calls
+                  significantly.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section
+            class="section fade-up"
+            aria-labelledby="contact-heading"
+            style="margin-top: 12px"
+          >
+            <h3 id="contact-heading" class="lead">Contact</h3>
+            <p class="small muted">
+              Open to leadership roles • Relocation friendly
+            </p>
+
+            <!-- Formspree example: replace the action with your Formspree endpoint or other handler -->
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/your-id"
+              method="POST"
+              style="margin-top: 12px; display: grid; gap: 8px"
+            >
+              <label class="small"
+                >Name<input
+                  name="name"
+                  required
+                  style="
+                    width: 100%;
+                    padding: 8px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(0, 0, 0, 0.06);
+                    background: transparent;
+                  "
+              /></label>
+              <label class="small"
+                >Email<input
+                  name="_replyto"
+                  type="email"
+                  required
+                  style="
+                    width: 100%;
+                    padding: 8px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(0, 0, 0, 0.06);
+                    background: transparent;
+                  "
+              /></label>
+              <label class="small"
+                >Message<textarea
+                  name="message"
+                  rows="4"
+                  required
+                  style="
+                    width: 100%;
+                    padding: 8px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(0, 0, 0, 0.06);
+                    background: transparent;
+                  "
+                ></textarea>
+              </label>
+              <input type="hidden" name="_subject" value="Portfolio contact" />
+              <button type="submit" class="btn primary">Send message</button>
+              <div
+                id="formMessage"
+                role="status"
+                aria-live="polite"
+                style="font-size: 0.9rem; color: var(--muted)"
+              ></div>
+            </form>
+          </section>
+        </div>
+
+        <aside>
+          <section class="section fade-up" aria-labelledby="exp-heading">
+            <h3 id="exp-heading" class="lead">Experience</h3>
+            <div class="experience" role="list">
+              <article class="job" role="listitem" aria-label="Airtel Digital">
+                <h3>Airtel Digital — Lead Engineer (Frontend)</h3>
+                <div class="meta-job">Gurugram | Jan 2022 – Present</div>
+                <ul>
+                  <li>
+                    <strong>Accessibility Leadership</strong>: Championed WCAG
+                    2.1 adoption across multiple journeys.
+                  </li>
+                  <li>
+                    <strong>Wi-Fi Change Plan</strong>: End-to-end upgrade flow
+                    for Thanks App.
+                  </li>
+                  <li>
+                    <strong>Postpaid Change Plan</strong>: Redesigned plan
+                    discovery & upsell nudges (19% conversion lift).
+                  </li>
                 </ul>
+              </article>
+
+              <article
+                class="job"
+                role="listitem"
+                aria-label="TELUS International"
+              >
+                <h3>TELUS International — Module Lead</h3>
+                <div class="meta-job">Noida | Aug 2018 – Jan 2022</div>
+                <p class="small muted">
+                  Led Visual IVR and enterprise chatbot platforms.
+                </p>
+              </article>
             </div>
-            <div id="down-arrow">
-                <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+          </section>
+
+          <section
+            class="section fade-up"
+            aria-labelledby="edu-heading"
+            style="margin-top: 12px"
+          >
+            <h3 id="edu-heading" class="lead">Education & Certifications</h3>
+            <p class="small">
+              <strong>B.Tech — Information Technology</strong><br />GGSIPU, 2014
+            </p>
+            <p class="small"><strong>Certs</strong></p>
+            <ul class="small muted">
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/certification/nileshlaxmi/front-end-development-libraries"
+                  target="_blank"
+                  rel="noopener"
+                  >FreeCodeCamp — Front End Libraries</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/certification/nileshlaxmi/responsive-web-design"
+                  target="_blank"
+                  rel="noopener"
+                  >FreeCodeCamp — Responsive Web Design</a
+                >
+              </li>
+            </ul>
+            <div style="margin-top: 12px" class="small muted">
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/nilesh-laxmi"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://nileshlaxmi.github.io"
+                  target="_blank"
+                  rel="noopener"
+                  >Portfolio</a
+                >
+              </div>
             </div>
+          </section>
+        </aside>
+      </main>
+
+      <footer>
+        <div>Available for leadership roles • Open to relocation</div>
+        <div
+          style="font-family: var(--mono); font-size: 12px; color: var(--muted)"
+        >
+          Built with HTML / CSS / JS
         </div>
-        <!-- END HEADER -->
-
-        <!-- BEGIN ABOUT -->
-        <div class="row white box-shadow">
-            <div class="side-content"></div>
-            <div class="main-content">
-                <div class="content-header">
-                    <a class="anchor" name="about"></a>
-                    <h2>About</h2>
-                </div>
-                <div class="content-body">
-                    <p>Hi, I am Nilesh Laxmi. Currently working for Xavient Information Digital where we are creating an AI product for chat bot. My professional career started from Nov, 2014. In my college
-                        years, I was involved in mobile applications development. I have developed and published around
-                        15 phone apps in my college years.
-                        My mobile applications were created on HTML, CSS and JavaScript. So I was able to capitalize on
-                        my these knowledge during my professional years. </p>
-                    <p>Personally I love to read books, posts and manga. I am avid reader of Medium and Quora posts. I
-                        love to play cricket, football and do swimming.</p>
-                </div>
-            </div>
-            <div class="side-content"></div>
-        </div>
-        <!-- END ABOUT -->
-
-        <!-- BEGIN EXPERIENCE -->
-        <div class="row">
-            <div class="side-content"></div>
-            <div class="main-content">
-                <div class="content-header">
-                    <a class="anchor" name="experience"></a>
-                    <h2>Experience</h2>
-                </div>
-                <!-- CARD #1 -->
-                <div class="content-body">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Xavient Information System <span class="job-title">Senior Software Engineer</span></h4>
-                        </div>
-                        <div class="card-content">
-                            <p> • Creating a chat bot product
-                                <br />• Chat bot consists of two part: Widget and its admin panel
-                                <br />• Widget is a messenger between bot and user 
-                                <br />• Admin Panel is where we can configure bot features and create question banks
-                                <br />• Technologies used : React, Redux, and Web Sockets in UI
-                                <br />• Delivered one product, its qa version url:
-                                    <br />• Widget: widget-qahrbot.xavlab.xyz
-                                    <br />• Admin Panel: qahrbot.xavlab.xyz
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CARD #2 -->
-                <div class="content-body">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>NTTDATA Services <span class="job-title">Software Development Analyst</span></h4>
-                        </div>
-                        <div class="card-content">
-                            <p> • Create SPA and integrate solutions to customer’s existing Websites.
-                                <br />• Conduct different level of testing including functional, user acceptance,
-                                integration and performance to verify client’s needs are met.
-                                <br />• Analyze client’s business requirements and processes through document analysis,
-                                calls or emails.
-                                <br />• Part of Integration Operation Team and Centre of Excellence group.</p>
-                        </div>
-                    </div>
-
-                    <!-- CARD #3 -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Dell International Services <span class="job-title">Svc Senior Associate II</span></h4>
-                        </div>
-                        <div class="card-content">
-                            <p> • Had hands on softwares such as SQL Server 2008, Visual Studio 2010 and 2012, Netbeans
-                                7.0, IBM IIB 10, IBM WMQ v7 and WMB v7.
-                                <br />• Worked on Unix (AIX) platform for 2 years.
-                                <br />• Experience in Middleware, Configuration and Implementation of software products.
-                                <br />• Create Interfaces and Integrate solutions to customer’s existing products using
-                                Integration tool like IBM IIB10, WBIMB v7.0.
-                                <br />• Part of 5 HL7 Go Lives and one EDI server migration team.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="side-content"></div>
-        </div>
-        <!-- END EXPERIENCE -->
-
-        <!-- BEGIN EDUCATION -->
-        <div class="row white box-shadow">
-            <div class="side-content"></div>
-            <div class="main-content">
-                <div class="content-header">
-                    <a class="anchor" name="education"></a>
-                    <h2>Education</h2>
-                </div>
-                <div class="content-body">
-
-                    <!-- EDUCATION 1 -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Indraprastha University <span class="job-title">2010-2014</span></h4>
-                        </div>
-                        <div class="card-content">
-                            <p>Activities and Societies: Fest Organizer, Participated in University Chess Competition,
-                                Voluntarily Works for Training and Placement Office, Conducted Workshop on Windows Phone
-                                Application Development.
-                                <br />- One of the organizer of Techno-fest held in our college.
-                                <br />- Conducted a workshop on windows phone app development.
-                                <br />- Participated in university conducted chess competition.
-                                <br />- Given seminar about Quantum Cryptography, and OOP technology.
-                                <br />- Voluntarily works for TPO.</p>
-                        </div>
-                    </div>
-                    <!-- EDUCATION 2 -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>DAV, Pitampura, Delhi <span class="job-title">2007-2009</span></h4>
-                        </div>
-                        <div class="card-content">
-                            <p>Activities and Societies: Quiz Team, Sports Club.
-                                <br />- Won Inter School Quiz Competition
-                                <br />- Participated in Inter School Coding Competition
-                                <br />- Participated in Inter School Chess Competition</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="side-content"></div>
-        </div>
-        <!-- END EDUCATION -->
-
-        <!-- BEGIN PROJECTS -->
-        <div class="row">
-            <div class="side-content-sm"></div>
-            <div class="main-content-lg">
-                <div class="content-header">
-                    <a class="anchor" name="projects"></a>
-                    <h2>Projects</h2>
-                </div>
-                <div class="content-body">
-                    <!-- CARD #1 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://codepen.io/NileshLaxmi/full/rvJrwg/" target="_blank"><img
-                                    src="images/project-img-card-wikipedia.jpg" alt="wikipedia"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>Wikipedia Viewer</h4>
-                            <p>User can search any Wikipedia articles by submitting an input. User can also search
-                                random articles by clicking on the ludo design. This project uses Wikipedia API. We get
-                                a response from Wikipedia API on our request.</p>
-                            <a href="https://codepen.io/NileshLaxmi/full/rvJrwg/" target="_blank">Codepen Link</a>
-                        </div>
-                    </div>
-                    <!-- CARD #2 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://codepen.io/NileshLaxmi/full/wmbbKe/" target="_blank"><img
-                                    src="images/project-img-card-weather.jpg" alt="weather"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>Local Weather App</h4>
-                            <p>This app will show current weather and temperature of user's place. User can also change
-                                temperature from Celsius to Fahrenheit and vice-versa. This app uses freecodecamp
-                                Weather API.</p>
-                            <a href="https://codepen.io/NileshLaxmi/full/wmbbKe/" target="_blank">Codepen Link</a>
-                        </div>
-                    </div>
-                    <!-- CARD #3 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://codepen.io/NileshLaxmi/full/mxyXox/" target="_blank"><img
-                                    src="images/project-img-card-tribute.jpg" alt="tribute"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>Tribute Page</h4>
-                            <p>This page is a tribute to Sachin Tendulkar: Man who can stop time in India. It uses CSS
-                                Flexbox technique. And one can also check out its Wikipedia Page and Cricbuzz Stats by
-                                clicking on the link.</p>
-                            <a href="https://codepen.io/NileshLaxmi/full/mxyXox/" target="_blank">Codepen Link</a>
-                        </div>
-                    </div>
-                    <!-- CARD #4 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://codepen.io/NileshLaxmi/pen/pZyQeQ" target="_blank"><img
-                                    src="images/project-img-card-document.jpg" alt="document"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>JavaScript Documentation Page</h4>
-                            <p>This is a JavaScript Documentation page. It uses CSS Flexbox technique. Anybody can use
-                                this template for their own Technical Documenation Page</p>
-                            <a href="https://codepen.io/NileshLaxmi/pen/pZyQeQ" target="_blank">Codepen Link</a>
-                        </div>
-                    </div>
-                    <!-- CARD #5 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://codepen.io/NileshLaxmi/pen/vrKqVq" target="_blank"><img
-                                    src="images/project-img-card-survey.jpg" alt="survey"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>Survey Form</h4>
-                            <p>This is just a template for survey form. It uses CSS Flexbox technique. Anybody can
-                                utilise this for their own forms.</p>
-                            <a href="https://codepen.io/NileshLaxmi/pen/vrKqVq" target="_blank">Codepen Link</a>
-                        </div>
-                    </div>
-                    <!-- CARD #6 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://codepen.io/NileshLaxmi/pen/oqjBqe" target="_blank"><img
-                                    src="images/project-img-card-portfolio.jpg" alt="portfolio"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>Personal Portfolio</h4>
-                            <p>This is just a template for portfolio. It uses CSS Flexbox technique. Anybody can utilise
-                                this for their own portfolio website.</p>
-                            <a href="https://codepen.io/NileshLaxmi/pen/oqjBqe" target="_blank">Codepen Link</a>
-                        </div>
-                    </div>
-                    <!-- CARD #7 -->
-                    <div class="project-card">
-                        <div class="project-image">
-                            <a href="https://github.com/nileshlaxmi/react/tree/master/movies-app" target="_blank"><img
-                                    src="images/project-img-card-movie.jpg" alt="wikipedia"></a>
-                        </div>
-                        <div class="project-content">
-                            <h4>Movies App</h4>
-                            <p>User can search movie by entering any keyword. This app is created using React,
-                                Bootstrap, AJAX, React-Router and Redux. App will search movie in IMDB like repository.
-                                API will return the result. State management is maintained by Redux. User can also mark
-                                movie as their favorite.</p>
-                            <a href="https://github.com/nileshlaxmi/react/tree/master/movies-app" target="_blank">Github
-                                Link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="side-content-sm"></div>
-        </div>
-        <!-- END PROJECTS -->
-
-        <!-- BEGIN SKILLS -->
-        <div class="row white box-shadow">
-            <div class="side-content"></div>
-            <div class="main-content">
-                <div class="content-header">
-                    <a class="anchor" name="skills"></a>
-                    <h2>Skills</h2>
-                </div>
-                <div class="content-body">
-                    <ul class="ul-skills">
-                        <li class="li-skills">HTML</li>
-                        <li class="li-skills">CSS</li>
-                        <li class="li-skills">Javascript</li>
-                        <li class="li-skills">Bootstrap</li>
-                        <li class="li-skills">jQuery</li>
-                        <li class="li-skills">AJAX</li>
-                        <li class="li-skills">React</li>
-                        <li class="li-skills">Redux</li>
-                        <li class="li-skills">Wordpress</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="side-content"></div>
-        </div>
-        <!-- END SKILLS -->
-
-        <!-- BEGIN CONTACT -->
-
-        <div class="row blue">
-            <div class="side-content"></div>
-            <div class="main-content">
-                <div class="content-header">
-                    <a class="anchor" name="contact"></a>
-                    <h2 class="white-text">Contact Me</h2>
-                </div>
-                <div class="contact content-body">
-                    <form method="POST" action="https://formspree.io/nileshlaxmi4@gmail.com">
-                        <input type="hidden" name="_subject" value="Contact request from personal website" />
-                        <input type="email" name="_replyto" placeholder="Your email" required>
-                        <textarea name="message" placeholder="Your message" required></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
-            </div>
-            <div class="side-content"></div>
-        </div>
-        <!-- END CONTACT -->
-
-        <!-- BEGIN FOOTER -->
-        <div class="row">
-            <div class="side-content"></div>
-            <div class="main-content">
-                <div class="content-header">
-                </div>
-                <div class="content-body">
-                    <p style="text-align: center">&copy; Nilesh Laxmi 2018</p>
-                </div>
-            </div>
-            <div class="side-content"></div>
-        </div>
-        <!-- END FOOTER -->
-
+      </footer>
     </div>
 
-</body>
-
+    <script src="script.js" defer></script>
+    "
+  </body>
 </html>
