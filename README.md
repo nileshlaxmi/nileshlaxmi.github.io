@@ -22,7 +22,6 @@ Showcasing my work as a **Frontend Tech Lead / Cross-Platform UI Lead** with 10+
 - TypeScript
 - Accessibility (WCAG)
 - Design Systems
-- Web3 / Solidity
 - CI / CD
 
 ## 💼 Experience
