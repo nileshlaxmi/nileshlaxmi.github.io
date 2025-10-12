@@ -1,0 +1,22 @@
+# Robots.txt for Nilesh Laxmi Portfolio
+# Purpose: Guide search engines and ensure important pages are indexed properly.
+
+User-agent: *
+# Allow everything (recommended for public portfolio)
+Allow: /
+
+# Prevent indexing of technical or duplicate paths (optional, if these exist)
+Disallow: /images/favicon/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /assets/temp/
+Disallow: /admin/
+
+# Crawl-delay is optional, rarely used, and ignored by Google
+# Crawl-delay: 10
+
+# Sitemap helps search engines discover all pages quickly
+Sitemap: https://nileshlaxmi.github.io/sitemap.xml
+
+# Clean param rules help avoid duplicate indexing for UTM or tracking parameters
+# Example: https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt#clean-param
