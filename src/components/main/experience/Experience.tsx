@@ -44,7 +44,7 @@ const JOBS: Job[] = [
 
 export function Experience() {
   return (
-    <section className="section fade-up" aria-labelledby="exp-heading" style={{ marginTop: 12 }}>
+    <section className="section" aria-labelledby="exp-heading" style={{ marginTop: 12 }}>
       <h3 id="exp-heading" className="lead">Experience</h3>
       <div className="experience" role="list">
         {JOBS.map((job) => (

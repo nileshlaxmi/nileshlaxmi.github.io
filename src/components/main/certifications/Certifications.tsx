@@ -8,7 +8,7 @@ const CERTS = [
 
 export function Certifications() {
   return (
-    <section className="section fade-up" aria-labelledby="certs-heading" style={{ marginTop: 12 }}>
+    <section className="section" aria-labelledby="certs-heading" style={{ marginTop: 12 }}>
       <h3 id="certs-heading" className="lead">Certifications</h3>
       <ul className="small muted">
         {CERTS.map(c => (

@@ -1,4 +1,5 @@
-import React, { type FormEvent, useState } from "react";
+import { type FormEvent, useState } from "react";
+import "./style.css";
 
 export function ContactForm() {
   const [status, setStatus] = useState<
@@ -11,7 +12,7 @@ export function ContactForm() {
     const form = e.currentTarget;
     const fd = new FormData(form);
     try {
-      const res = await fetch("https://formspree.io/f/your-form-id", {
+      const res = await fetch("https://formspree.io/f/nileshlaxmi4@gmail.com", {
         method: "POST",
         body: fd,
         headers: { Accept: "application/json" },
@@ -27,9 +28,9 @@ export function ContactForm() {
 
   return (
     <section
-      className="section fade-up"
+      className="section"
       aria-labelledby="contact-heading"
-      style={{ marginTop: 12 }}
+      style={{ marginTop: '12px' }}
     >
       <h3 id="contact-heading" className="lead">
         Contact Form
@@ -37,11 +38,7 @@ export function ContactForm() {
       <p className="small muted">
         Open to leadership roles • Relocation friendly
       </p>
-      <form
-        id="contactForm"
-        onSubmit={handleSubmit}
-        style={{ marginTop: 12, display: "grid", gap: 8 }}
-      >
+      <form id="contactForm" onSubmit={handleSubmit} className="form">
         <label className="small">
           Name
           <input name="name" required className="form-input" />

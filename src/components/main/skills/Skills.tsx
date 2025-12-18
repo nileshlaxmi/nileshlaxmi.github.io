@@ -18,7 +18,7 @@ const SKILLS = [
 
 export function Skills() {
   return (
-    <section className="section fade-up" aria-labelledby="skills-heading">
+    <section className="section" aria-labelledby="skills-heading">
       <h3 id="skills-heading" className="lead">Skills</h3>
       <div className="skills" aria-hidden="false" style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
         {SKILLS.map(skill => (
