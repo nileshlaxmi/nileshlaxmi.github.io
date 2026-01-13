@@ -1,4 +1,4 @@
-import { useTheme } from '../../../hooks/useTheme';
+import { useTheme } from "../../../hooks/useTheme";
 
 export function ThemeToggle() {
   const { isDark, toggleTheme } = useTheme();
@@ -11,8 +11,13 @@ export function ThemeToggle() {
       title="Toggle theme"
       aria-pressed={isDark}
       aria-label="Toggle theme"
+      style={{marginRight: '2px'}}
     >
-      {isDark ? '☀️ Theme' : '🌙 Theme'}
+      {isDark ? (
+        <span className="theme-icon">☀️</span>
+      ) : (
+        <span className="theme-icon">🌙</span>
+      )}
     </button>
   );
 }

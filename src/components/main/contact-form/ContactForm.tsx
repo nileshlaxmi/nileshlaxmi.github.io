@@ -1,4 +1,4 @@
-import { type FormEvent, useState } from "react";
+import React, { type FormEvent, useState } from "react";
 import "./style.css";
 
 export function ContactForm() {
@@ -30,7 +30,7 @@ export function ContactForm() {
     <section
       className="section"
       aria-labelledby="contact-heading"
-      style={{ marginTop: '12px' }}
+      style={{ marginTop: "12px" }}
     >
       <h3 id="contact-heading" className="lead">
         Contact Form

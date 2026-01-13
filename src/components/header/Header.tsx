@@ -1,16 +1,18 @@
+import { PORTFOLIO_DATA } from "../../constants/portfolio.constant";
 import Avatar from "./avatar";
 import ContactInfo from "./contact-info";
 import SocialLinks from "./social-links";
 import ThemeToggle from "./theme-toggle";
+import { MdDownload } from "react-icons/md";
 
-export function Header() {
+export const Header = () => {
   return (
     <header>
       <div className="title" id="name">
-        <Avatar />
+        <Avatar initials={PORTFOLIO_DATA.header.avatar} />
         <div>
-          <h1>Nilesh Laxmi</h1>
-          <h2>Frontend Tech Lead / Cross-Platform UI Lead</h2>
+          <h1>{PORTFOLIO_DATA.header.name}</h1>
+          <h2>{PORTFOLIO_DATA.header.title}</h2>
           <ContactInfo />
           <SocialLinks />
         </div>
@@ -24,9 +26,10 @@ export function Header() {
           href="docs/resume.pdf"
           download="Nilesh-Laxmi-Resume.pdf"
         >
-          Download resume
+          {PORTFOLIO_DATA.header.actions.downloadResume.text}
+          <MdDownload style={{ marginLeft: "4px" }} />
         </a>
       </div>
     </header>
-  )
-}
+  );
+};
