@@ -237,17 +237,6 @@ a[href^="http"] {
   text-decoration: none;
 }
 
-/* subtle motion */
-.fade-up {
-  transform: translateY(6px);
-  opacity: 0;
-  transition: transform 0.35s ease, opacity 0.35s ease;
-}
-.fade-up.visible {
-  transform: none;
-  opacity: 1;
-}
-
 /* badges count */
 .stats {
   display: flex;
