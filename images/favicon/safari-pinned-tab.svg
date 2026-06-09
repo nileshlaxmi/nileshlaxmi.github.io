@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="NL monogram">
+  <title>Nilesh Laxmi — NL</title>
+  
+  <!-- White shapes define the visible mask area.
+       Safari recolors this using the 'color' attribute in <link rel="mask-icon"> -->
+  
+  <!-- Transparent background -->
+  <rect width="24" height="24" fill="transparent"/>
+
+  <g fill="#ffffff">
+    <!-- Letter N -->
+    <!-- Left vertical -->
+    <rect x="2" y="2" width="2" height="20" rx="0.5"/>
+    <!-- Diagonal connecting left-bottom to right-top -->
+    <polygon points="4,2 6,2 14,22 11.5,22"/>
+    <!-- Right vertical -->
+    <rect x="11.5" y="2" width="2" height="20" rx="0.5"/>
+
+    <!-- Letter L -->
+    <rect x="16" y="2" width="2" height="20" rx="0.5"/>
+    <rect x="16" y="20" width="8" height="2" rx="0.5"/>
+  </g>
+</svg>
