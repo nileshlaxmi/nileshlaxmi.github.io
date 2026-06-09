@@ -2,7 +2,8 @@
   "name": "nileshlaxmi.github.io",
   "version": "1.0.0",
   "description": "Welcome to my personal portfolio site! Showcasing my work as a **Frontend Tech Lead / Cross-Platform UI Lead** with 10+ years of experience building scalable, performant, and accessible web & mobile applications.",
-  "main": "script.js",
+  "type": "module",
+  "main": "src/main.jsx",
   "directories": {
     "doc": "docs"
   },
@@ -129,6 +130,9 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -141,5 +145,8 @@
   "bugs": {
     "url": "https://github.com/nileshlaxmi/nileshlaxmi.github.io/issues"
   },
-  "homepage": "https://github.com/nileshlaxmi/nileshlaxmi.github.io#readme"
+  "homepage": "https://github.com/nileshlaxmi/nileshlaxmi.github.io#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0"
+  }
 }

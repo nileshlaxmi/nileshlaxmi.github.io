@@ -184,7 +184,6 @@ footer {
   gap: 8px;
 }
 
-/* small helpers */
 a {
   color: inherit;
 }
@@ -219,7 +218,6 @@ a[href^="http"] {
   color: var(--muted);
 }
 
-/* skip link visible on focus */
 .skip {
   position: absolute;
   left: -9999px;
@@ -237,7 +235,6 @@ a[href^="http"] {
   text-decoration: none;
 }
 
-/* subtle motion */
 .fade-up {
   transform: translateY(6px);
   opacity: 0;
@@ -248,7 +245,6 @@ a[href^="http"] {
   opacity: 1;
 }
 
-/* badges count */
 .stats {
   display: flex;
   gap: 12px;
@@ -265,5 +261,26 @@ a[href^="http"] {
   font-size: 1.15rem;
 }
 .muted {
+  color: var(--muted);
+}
+
+.contact-form {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+}
+
+.form-message {
+  font-size: 0.9rem;
   color: var(--muted);
 }
