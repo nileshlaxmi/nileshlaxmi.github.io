@@ -59,7 +59,17 @@ Feel free to reach out via [email](mailto:nileshlaxmi4@gmail.com) or [LinkedIn](
 - Random Quote Generator
 - Movie App (React, AJAX, React Router, Redux)
 
+## Development
+
+```bash
+npm install
+npm run dev      # local dev server
+npm run build    # production build → dist/
+npm run preview  # preview production build
+```
+
+Deploys to GitHub Pages via the GitHub Actions workflow on push to `main`.
+
 ---
 
-> Built with HTML / CSS / JS  
-> [Portfolio Website](https://nileshlaxmi.github.io)
+> Built with React + Vite
