@@ -1,0 +1,166 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portfolio Config",
+  "type": "object",
+  "required": ["profile", "summary", "projects", "experience", "skills", "education", "certifications"],
+  "properties": {
+    "profile": {
+      "type": "object",
+      "required": ["name", "role", "location", "phone", "email", "avatar", "links", "resume"],
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "location": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": {
+          "type": "object",
+          "required": ["label", "href"],
+          "properties": {
+            "label": { "type": "string" },
+            "href": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "avatar": { "type": "string" },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "href"],
+            "properties": {
+              "label": { "type": "string" },
+              "href": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "resume": {
+          "type": "object",
+          "required": ["label", "href", "download"],
+          "properties": {
+            "label": { "type": "string" },
+            "href": { "type": "string" },
+            "download": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "summary": {
+      "type": "object",
+      "required": ["title", "description", "stats"],
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "stats": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["value", "label"],
+            "properties": {
+              "value": { "type": "string" },
+              "label": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "projects": {
+      "type": "object",
+      "required": ["title", "description", "items"],
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "description"],
+            "properties": {
+              "title": { "type": "string" },
+              "description": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "experience": {
+      "type": "object",
+      "required": ["title", "jobs"],
+      "properties": {
+        "title": { "type": "string" },
+        "jobs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["company", "designation", "location", "timeline", "highlights"],
+            "properties": {
+              "company": { "type": "string" },
+              "designation": { "type": "string" },
+              "location": { "type": "string" },
+              "timeline": { "type": "string" },
+              "techStack": { "type": "string" },
+              "highlights": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "skills": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "education": {
+      "type": "object",
+      "required": ["title", "items"],
+      "properties": {
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["degree", "school", "year"],
+            "properties": {
+              "degree": { "type": "string" },
+              "school": { "type": "string" },
+              "year": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "certifications": {
+      "type": "object",
+      "required": ["title", "items"],
+      "properties": {
+        "title": { "type": "string" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "url"],
+            "properties": {
+              "label": { "type": "string" },
+              "url": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

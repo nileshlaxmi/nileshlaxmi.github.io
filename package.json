@@ -1,6 +1,6 @@
 {
   "name": "nileshlaxmi.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Welcome to my personal portfolio site! Showcasing my work as a **Frontend Tech Lead / Cross-Platform UI Lead** with 10+ years of experience building scalable, performant, and accessible web & mobile applications.",
   "type": "module",
   "main": "src/main.jsx",
@@ -10,7 +10,7 @@
   "dependencies": {
     "acorn": "^8.15.0",
     "acorn-jsx": "^5.3.2",
-    "ajv": "^6.12.6",
+    "ajv": "^8.20.0",
     "ansi-styles": "^4.3.0",
     "argparse": "^2.0.1",
     "balanced-match": "^1.0.2",
