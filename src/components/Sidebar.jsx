@@ -1,5 +1,5 @@
 import FadeUp from './FadeUp.jsx';
-import { skills, certifications } from '../data/portfolio.js';
+import { skills, education, certifications } from '../data/portfolio.js';
 
 export default function Sidebar() {
   return (
@@ -23,13 +23,15 @@ export default function Sidebar() {
         style={{ marginTop: 12 }}
       >
         <h3 id="edu-heading" className="lead">
-          Education
+          {education.title}
         </h3>
-        <p className="small">
-          <strong>B.Tech — Information Technology</strong>
-          <br />
-          GGSIPU, 2014
-        </p>
+        {education.items.map((item) => (
+          <p className="small" key={`${item.degree}-${item.year}`}>
+            <strong>{item.degree}</strong>
+            <br />
+            {item.school}, {item.year}
+          </p>
+        ))}
       </FadeUp>
 
       <FadeUp
@@ -38,10 +40,10 @@ export default function Sidebar() {
         style={{ marginTop: 12 }}
       >
         <h3 id="cert-heading" className="lead">
-          Certifications
+          {certifications.title}
         </h3>
         <ul className="small muted">
-          {certifications.map((cert) => (
+          {certifications.items.map((cert) => (
             <li key={cert.url}>
               <a href={cert.url} target="_blank" rel="noopener noreferrer">
                 {cert.label}

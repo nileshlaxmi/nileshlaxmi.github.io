@@ -9,14 +9,11 @@ export default function Projects() {
       style={{ marginTop: 12 }}
     >
       <h3 id="projects-heading" className="lead">
-        Selected Projects
+        {projects.title}
       </h3>
-      <p className="small muted">
-        Platform modernization, scalable frontend architecture, accessibility, and customer
-        experience engineering across Airtel Web & Thanks App ecosystems.
-      </p>
+      <p className="small muted">{projects.description}</p>
       <div className="projects" role="list">
-        {projects.map((project) => (
+        {projects.items.map((project) => (
           <article key={project.title} className="project" role="listitem">
             <strong>{project.title}</strong>
             <p>{project.description}</p>
